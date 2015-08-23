@@ -251,7 +251,7 @@
             botName: "basicBot",
             language: "english",
             chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
-            scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
+            scriptLink: "https://rawgit.com/DRAWNBOX/basicBot-customization/master/extension.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
@@ -2917,7 +2917,7 @@
                         basicBot.disconnectAPI();
                         kill();
                         setTimeout(function () {
-                            $.getScript("https://rawgit.com/DRAWNBOX/basicBot-customization/master/extension.js");
+                            $.getScript(basicBot.settings.scriptLink);
                         }, 2000);
                     }
                 }
