@@ -2917,7 +2917,7 @@
                         basicBot.disconnectAPI();
                         kill();
                         setTimeout(function () {
-                            $.getScript(basicBot.settings.scriptLink);
+                            $.getScript("https://rawgit.com/DRAWNBOX/basicBot-customization/master/extension.js");
                         }, 2000);
                     }
                 }
