@@ -181,7 +181,7 @@
     "unmuted": "\/me [@%%NAME%%] desmuteo @%%USERNAME%%.",
     "muterank": "\/me [@%%NAME%%]Tu no puedes mutear personas con el mismo rango o mayor que el tuyo.",
     "oplist": "\/me Lista OP: %%LINK%%",
-    "pong": "\/me Pong!",
+    "pong": "\/me Error, Connection Timed Out!",
     "reload": "\/me Vuelvo enseguida.",
     "removenotinwl": "\/me [@%%NAME%%] Usuario especificado @%%USERNAME%% no esta en la lista de espera.",
     "roomrules": "\/me Por favor lee las reglas de la sala aqui: %%LINK%%",
