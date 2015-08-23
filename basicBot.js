@@ -2904,7 +2904,7 @@
             },
 
             reloadCommand: {
-                command: 'reload',
+                command: 'baconreload',
                 rank: 'bouncer',
                 type: 'exact',
                 functionality: function (chat, cmd) {
